@@ -34,43 +34,72 @@
         }
     </script>
 </head>
-<body>
+<body class="manrope-font">
     <header>
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact Us</a></li>
-                        </ul>
-                    </div>
+        <nav class="lg:w-[80%] mx-auto lg:py-8 py-3 w-[90%]">
+            <div class="flex justify-between items-center">
+                <div>
+                    <i class='bx bx-right-arrow-alt text-[32px] bg-[#ABEF5F] rounded-[32px] p-[0.5px] rotate-[-45deg] text-[#1C1C1C]'></i>
                     <a href="" class="text-[#212121] text-[32px] font-[800]">Rinterio</a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-[#FF4240] text-[16px] font-[700]">Home</a></li>
-                        <li><a class="text-[#424247] text-[16px] font-[400]">Services</a></li>
-                        <li><a class="text-[#424247] text-[16px] font-[400]">Portfolio</a></li>
-                        <li><a class="text-[#424247] text-[16px] font-[400]">Blogs</a></li>
-                        <li><a class="text-[#424247] text-[16px] font-[400]">Contact Us</a></li>
+                <div>
+                    <ul class="lg:flex lg:gap-[37px] hidden">
+                        <li><a class="text-[#494949] text-[16px] font-[800]">Home</a></li>
+                        <li><a class="text-[#737373] text-[16px] font-[400]">Services</a></li>
+                        <li><a class="text-[#737373] text-[16px] font-[400]">Portfolio</a></li>
+                        <li><a class="text-[#737373] text-[16px] font-[400]">Blogs</a></li>
+                        <li><a class="text-[#737373] text-[16px] font-[400]">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end flex lg:gap-2">
-                    <i class="fa-solid fa-magnifying-glass text-[18px] text-[#89898B] bg-[#FFFFFF] rounded-[56px] p-2"></i>
-                    <i class="fa-solid fa-cart-shopping text-[#737373] text-[18px] bg-[#FFFFFF] rounded-[56px] p-2"></i>
+                <div class="lg:flex lg:items-center lg:justify-between lg:gap-[15px] hidden">
+                    <i class="fa-solid fa-magnifying-glass text-[18px] text-[#89898B] bg-[#FFFFFF] rounded-[50px] p-2"></i>
+                    <i class="fa-solid fa-cart-shopping text-[#737373] text-[18px] bg-[#FFFFFF] rounded-[50px] p-2"></i>
                     <a class="btn rounded-[32px] bg-[#ABEF5F] text-[#1C1C1C] font-[800] text-[20px]">Book Consult<i class='bx bxs-right-top-arrow-circle text-[#1C1C1C] text-[32px]'></i></a>
+                </div>
+                <div class="lg:hidden">
+                    <i class='bx bx-menu text-[#737373] text-[48px] bg-[#f2efef] rounded-[50px] p-2'></i>
                 </div>
             </div>
         </nav>
+        <section class="lg:w-[80%] mx-auto w-[90%]">
+            <div class="flex flex-col items-center justify-center gap-5">
+                <img src="./images/banner.png" alt="">
+                <h1 class="text-center text-[#212121] lg:text-[64px] text-[28px] font-[800]">A barn house of this design has a striking appearance</h1>
+                <p class="text-center text-[#494949] lg:text-[16px] text-[14px] font-[500]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="w-full lg:w-auto">
+                    <a class="btn flex items-center gap-2 rounded-[32px] bg-[#ABEF5F80] text-[#212121] font-[700] text-[20px] px-4 py-2">View Details<i class='bx bx-right-arrow-alt text-[32px] bg-[#ABEF5F] rounded-[32px] p-[0.5px] rotate-[-45deg] text-[#1C1C1C]'></i></a> 
+                </div>
+            </div>
+        </section>
     </header>
+    <main class="w-full bg-[#F4F4F4]">
+        <section>
+            <div class="flex flex-col lg:flex-row lg:justify-between items-center lg:w-[80%] w-[90%] mx-auto lg:pt-[100px] pt-[32px] mt-[40px] lg:mt-[120px]">
+                <div class="lg:w-[40%] lg:relative flex flex-col justify-center items-center lg:flex-none lg:items-start">
+                    <img src="./images/Vector.png" alt="" class="lg:absolute lg:left-[-12%] lg:top-[-10%] hidden lg:block">
+                    <a href="" class="text-[#494949] text-[16px] font-[700] bg-[#FFFFFF] px-[16px] py-[8px] rounded-[24px]"><i class='bx bx-right-arrow-alt text-[16px] text-[#494949]'></i>About Us</a>
+                    <h1 class="text-[#212121] lg:text-[40px] text-[24px] font-[700] mt-[16px] mb-[24px] lg:text-left text-center">We design thoughtful, liveable spaces</h1>
+                    <p class="text-[#494949] lg:text-[16px] text-[14px] font-[500] mb-[24px] lg:text-left text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="bg-[#FFFFFF] flex gap-[26px] mb-[24px] p-[24px] rounded-[16px]">
+                        <img src="./images/commercial.png" alt="">
+                        <div>
+                            <h1 class="text-[#494949] lg:text-[20px] text-[16px] font-[800]">Commercial</h1>
+                            <p class="text-[#737373] lg:text-[16px] text-[14px] font-[500]">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#FFFFFF] flex gap-[26px] mb-[24px] p-[24px] rounded-[16px]">
+                        <img src="./images/residential.png" alt="">
+                        <div>
+                            <h1 class="text-[#494949] lg:text-[20px] text-[16px] font-[800]">Residential</h1>
+                            <p class="text-[#737373] lg:text-[16px] text-[14px] font-[500]">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[100%] lg:w-[50%]">
+                    <img src="./images/Rectangle.png" alt="" class="h-[220px] w-[100%] lg:h-max">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
